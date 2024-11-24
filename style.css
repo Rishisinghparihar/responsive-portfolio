@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    color: #ededed;
+    background: #081b29;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 12%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    text-decoration: none;
+    color: aliceblue;
+    size: bolder;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-weight: 600;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 30px;
+    transition: 0.2s;
+}
+
+.navbar a:hover, 
+.navbar a.active{
+    color: #0cdbff;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.homecontent{
+    max-width: 650px;
+}
+
+.homecontent h1{
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.homecontent h3{
+    margin: 10px 5px;
+    font-size: 37px;
+    font-weight: 700;
+    color: gray;
+}
+
+.homecontent p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    align-items: center;
+    margin: 20px 0 40px;
+}
+
+.homecontent .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 50px;
+}
+
+.btn-box a{
+    position: relative;
+    width: 140px;
+    height: 100%;
+    background: chocolate;
+    border: chocolate solid;
+    border-radius: 5px;
+    display: inline-flex;
+    font-size: 20px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: gray;
+}
